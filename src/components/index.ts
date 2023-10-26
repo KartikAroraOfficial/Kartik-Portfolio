@@ -9,9 +9,9 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import { SectionWrapper } from '../hoc';
 
-const TechWithSection = SectionWrapper(Tech, "Tech");
-const WorksWithSection = SectionWrapper(Works, "Works");
-const ExperienceWithSection = SectionWrapper(Experience, "Experience");
+const TechWithSection = SectionWrapper(Tech, "tech");
+const WorksWithSection = SectionWrapper(Works, "work");
+const ExperienceWithSection = SectionWrapper(Experience, "experience");
 const ContactWithSection = SectionWrapper(Contact, "contact");
 const AboutWithSection = SectionWrapper(About, "about");
 const FeedbacksWithSection = SectionWrapper(Feedbacks, "feedbacks");
