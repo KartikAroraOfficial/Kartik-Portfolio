@@ -10,7 +10,7 @@ interface canvasArgs {
 
 
 const Computers = ({ isMobile } : canvasArgs) => {
-  const computer = useGLTF("./desktop_pc_done/scene.gltf");
+  const computer = useGLTF("./desktop_pc_done/scene-transformed.glb");
 
   return (
     <mesh>
